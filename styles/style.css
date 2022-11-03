@@ -33,7 +33,7 @@
 
 
 }
-.logo__place-header {
+.logo-place_header {
   top: 30px;
   width: 154px;
   height: 31px;
@@ -412,7 +412,7 @@
   justify-content: space-between;
   flex-basis: 711px;
 }
-.logo__place-footer {
+.logo-place_footer {
   width: 183px;
   height: 35px;
 
