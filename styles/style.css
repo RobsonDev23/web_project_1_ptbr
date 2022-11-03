@@ -1,5 +1,5 @@
 
-@keyframes rotation {
+@keyframes rotation{
   from {
     transform: rotate(0deg);
   }
@@ -91,11 +91,8 @@
   position: absolute;
   background-color:#2f80ed;
   right: 0;
-  rotate:-15deg;
-  animation-name: rotation;
-  animation-duration: 20s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
 
 
@@ -350,10 +347,7 @@
   position: absolute;
   right: -124px;
   top: 0;
-  animation-name: rotation;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: rotation 20s linear infinite;
 
 }
 
